@@ -164,3 +164,56 @@ a:hover {
     }
 }
 
+/* HERO HEADER */
+.hero {
+    height: 70vh;
+    background: linear-gradient(135deg, #1f4037, #4b6cb7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.hero h2 {
+    margin-top: 10px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    opacity: 0.9;
+}
+
+/* SOCIAL ICONS */
+.social-links {
+    margin-top: 25px;
+}
+
+.social-links a {
+    color: #ffffff;
+    font-size: 2rem;
+    margin: 0 15px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #1f2933;
+    transform: translateY(-5px) scale(1.1);
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero h2 {
+        font-size: 1.1rem;
+    }
+}
+
